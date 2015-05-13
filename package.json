@@ -1,0 +1,46 @@
+{
+  "name": "emptyspotlight",
+  "version": "1.0.0",
+  "description": "The code behind emptyspotlight.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --watch server index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clloyd/emptyspotlight.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clloyd/emptyspotlight/issues"
+  },
+  "homepage": "https://github.com/clloyd/emptyspotlight#readme",
+  "dependencies": {
+    "good": "^6.1.2",
+    "good-console": "^5.0.0",
+    "handlebars": "^3.0.3",
+    "hapi": "^8.4.0"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "client"
+    },
+    "dependencies": {
+      "react": "npm:react@^0.14.0-alpha1",
+      "reflux": "npm:reflux@^0.2.7"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-livereload": "^3.8.0",
+    "nodemon": "^1.3.7"
+  }
+}
